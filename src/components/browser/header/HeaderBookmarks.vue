@@ -69,7 +69,7 @@ export default defineComponent({
 					local: false, // if it's a local web address (on the site)
 				},
 				{
-					name: this.$t('browser.header.tabs.library'),
+					name: this.$t('browser.header.bookmark.library'),
 					link: '/library',
 					icon: BuildingLibraryIcon,
 					local: true, // if it's a local web address (on the site)

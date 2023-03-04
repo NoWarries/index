@@ -12,6 +12,9 @@
 			"reloadPage": "Reload page",
 			"tabs": {
 				"home": "Homepage",
+				"contact": "Contact"
+			},
+			"bookmark": {
 				"library": "OS Library"
 			}
 		},
@@ -31,5 +34,10 @@
 		"albumCover": "Album Cover",
 		"UpdateSpotify": "Update spotify"
 	},
-	"quote": "Heute back ich, morgen brau ich, übermorgen hol ich der Königin ihr Kind"
+	"quote": "Heute back ich, morgen brau ich, übermorgen hol ich der Königin ihr Kind",
+	"contact": {
+		"title": "Questions? No problem!",
+		"email": "email address",
+		"pgp": "PGP Public key"
+	}
 }

@@ -12,6 +12,9 @@
 			"reloadPage": "Pagina herladen",
 			"tabs": {
 				"home": "Homepagina",
+				"contact": "Contact"
+			},
+			"bookmark": {
 				"library": "OS Bibliotheek"
 			}
 		},
@@ -30,5 +33,10 @@
 		"albumCover": "Album Omslag",
 		"UpdateSpotify": "Update spotify"
 	},
-	"author": "Coen Warries"
+	"author": "Coen Warries",
+	"contact": {
+		"title": "Vragen? Geen probleem!",
+		"email": "email address",
+		"pgp": "PGP-Key"
+	}
 }
