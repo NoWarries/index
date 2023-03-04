@@ -39,5 +39,8 @@
 		"title": "Questions? No problem!",
 		"email": "email address",
 		"pgp": "PGP Public key"
+	},
+	"index": {
+		"title": "Hi, nice shirt!"
 	}
 }

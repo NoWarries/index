@@ -10,6 +10,33 @@ module.exports = {
 	],
 	theme: {
 		extend: {
+			keyframes: {
+				'fade-in': {
+					'0%': {
+						opacity: '0%',
+					},
+					'100%': {
+						opacity: '100%',
+					},
+				},
+				'fade-out': {
+					'0%': {
+						opacity: '100%',
+					},
+					'100%': {
+						opacity: '0%',
+					},
+				},
+				'wiggle': {
+					'0%, 100%': { transform: 'rotate(-7deg)' },
+					'50%': { transform: 'rotate(7deg)' },
+				},
+			},
+			animation: {
+				wiggle: 'wiggle 1s ease-in-out 10',
+				wiggleThenFadeOut:
+					'wiggle 1s ease-in-out 5, fade-out 1s ease 1 5s forwards',
+			},
 			colors: {
 				'electric-violet': {
 					DEFAULT: '#6E44FF',
