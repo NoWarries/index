@@ -4,11 +4,11 @@
 			<h1>{{ $t('browser.library.title') }}</h1>
 			<p>
 				{{ $t('browser.library.description') }}
-				<a
+				<NuxtLink
 					class="underline"
 					target="_blank"
-					href="https://github.com/NoWarries/tweededata/blob/master/package.json"
-					>{{ $t('browser.library.dependencies') }}</a
+					to="https://github.com/NoWarries/index/blob/master/package.json"
+					>{{ $t('browser.library.dependencies') }}</NuxtLink
 				>.
 			</p>
 		</div>
