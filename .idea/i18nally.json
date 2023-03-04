@@ -1,0 +1,78 @@
+{
+	"version": "1.2",
+	"profiles": [
+		{
+			"id": "d8a60ed1-2ca4-464d-8e3f-c628090f0bba",
+			"name": "Vue-i18n",
+			"keyNamingPattern": "CAMEL_CASE_PATTERN",
+			"sink": {
+				"id": "550621c3-117b-40c6-95f5-81152ced0a3f",
+				"type": "namespaced",
+				"translationsDirectory": "$PROJECT_DIR$/src/locales",
+				"fileType": "json",
+				"defaultLocale": "en",
+				"namespaces": ["messages"],
+				"outputFilenameTemplate": "%locale%.json",
+				"nestingType": "DOT",
+				"placeholderFormatterName": "ICU"
+			},
+			"sources": [
+				{
+					"id": "6ca130c1-9c1b-4061-bf23-9486f0e36a09",
+					"type": "js",
+					"scopeName": "Project Files",
+					"scopePattern": "",
+					"defaultReplacementTemplate": "$t('%key%', %map%)",
+					"recognizedReplacementTemplates": [],
+					"skipDefaultNamespace": false
+				},
+				{
+					"id": "a78f31f2-74b4-4075-bead-f17995429297",
+					"type": "htmlvue",
+					"scopeName": "Project Files",
+					"scopePattern": "",
+					"defaultReplacementTemplate": "$t('%key%', %map%)",
+					"attributeReplacementTemplate": "",
+					"inlineTagsReplacementTemplate": "",
+					"recognizedReplacementTemplates": [],
+					"inlineTagNames": [],
+					"translatableAttributeNames": [
+						"title",
+						"alt",
+						"placeholder",
+						"label",
+						"aria-label",
+						"v-text",
+						"v-html"
+					],
+					"skipDefaultNamespace": false
+				}
+			]
+		}
+	],
+	"ignores": {
+		"valuesInProject": ["use strict"],
+		"valuesInFile": {},
+		"filesInProject": [],
+		"unignoredFunctionNames": [],
+		"unignoredFunctionArguments": {},
+		"ignoredArrayKeys": [
+			"class",
+			"selector",
+			"template",
+			"middleware",
+			"layout",
+			"el",
+			"component",
+			"type",
+			"name",
+			"id",
+			"key",
+			"sql",
+			"query",
+			"dateFormat",
+			"date",
+			"condition"
+		]
+	}
+}

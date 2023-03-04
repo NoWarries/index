@@ -1,0 +1,34 @@
+{
+	"browser": {
+		"header": {
+			"languageSwitch": "Verander website taal",
+			"toggleBookmarks": "Bekijk bladwijzers",
+			"bookmarks": "Bladwijzers",
+			"toggleTheme": "Verander websites thema",
+			"switchThemeUnknown": "Verander theme",
+			"switchThemeToLight": "Veranderen naar licht thema",
+			"switchThemeToDark": "Veranderen naar donker thema",
+			"search": "Zoeken",
+			"reloadPage": "Pagina herladen",
+			"tabs": {
+				"home": "Homepagina",
+				"library": "OS Bibliotheek"
+			}
+		},
+		"library": {
+			"title": "Bibliotheek",
+			"description": "Deze website is gebouwd doormiddel van verschillende software modules, op deze pagina staan de meest cruciale genoteerd. Bekijk ook de anderen",
+			"dependencies": "afhankelijkheden",
+			"library": "Module",
+			"useCase": "Gebruik",
+			"license": "Licentie",
+			"website": "Website"
+		}
+	},
+	"musicDisplay": {
+		"trackBy": "Door: {join}",
+		"albumCover": "Album Omslag",
+		"UpdateSpotify": "Update spotify"
+	},
+	"author": "Coen Warries"
+}

@@ -1,0 +1,35 @@
+{
+	"browser": {
+		"header": {
+			"languageSwitch": "Change website preferred language",
+			"toggleBookmarks": "View bookmarks",
+			"bookmarks": "Bookmarks",
+			"toggleTheme": "Change website preferred theme",
+			"switchThemeUnknown": "Change theme",
+			"switchThemeToLight": "Change to light theme",
+			"switchThemeToDark": "Change to dark theme",
+			"search": "Search",
+			"reloadPage": "Reload page",
+			"tabs": {
+				"home": "Homepage",
+				"library": "OS Library"
+			}
+		},
+		"library": {
+			"title": "Library",
+			"description": "Website is build using various technologies, below I listed some of the most crucial ones. Also check out the",
+			"dependencies": "dependencies",
+			"library": "Library",
+			"useCase": "Use case",
+			"license": "License",
+			"website": "Website"
+		}
+	},
+	"author": "Coen Warries",
+	"musicDisplay": {
+		"trackBy": "By: {join}",
+		"albumCover": "Album Cover",
+		"UpdateSpotify": "Update spotify"
+	},
+	"quote": "Heute back ich, morgen brau ich, übermorgen hol ich der Königin ihr Kind"
+}
