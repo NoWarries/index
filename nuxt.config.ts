@@ -11,6 +11,8 @@ export default defineNuxtConfig({
 		['@nuxtjs/color-mode', { classSuffix: '' }],
 		['@nuxtjs/i18n', i18nConfig],
 	],
+	// Import plugins
+	plugins: [{ src: '~/plugins/vercel.ts', mode: 'client' }],
 	// App meta data
 	app: {
 		head: {

@@ -25,5 +25,8 @@
 	},
 	"lint-staged": {
 		"*.{js,ts,vue,css,json,md}": "prettier --write"
+	},
+	"dependencies": {
+		"@vercel/analytics": "^0.1.11"
 	}
 }

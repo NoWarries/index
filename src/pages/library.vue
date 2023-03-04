@@ -95,6 +95,12 @@ export default {
 					license: 'MIT',
 					licenseUrl: 'https://github.com/sass/dart-sass/blob/main/LICENSE',
 				},
+				{
+					name: 'Vercel',
+					url: 'https://vercel.com/',
+					useCase: 'Web hosting provider',
+					license: 'N/A',
+				},
 			],
 		};
 	},
