@@ -8,7 +8,7 @@
 			class="m-auto flex w-full flex-1 flex-col sm:w-11/12 sm:flex-row"
 		>
 			<main
-				class="bg-6 flex-1 rounded-lg bg-white p-6 pt-24 dark:bg-neutral-900 dark:text-white sm:mt-12"
+				class="bg-6 flex-1 bg-white p-6 pt-24 dark:bg-neutral-900 dark:text-white sm:mt-12 sm:rounded-lg"
 			>
 				<Header v-on:changeBrowserSize="processSizeChange" />
 				<slot />
