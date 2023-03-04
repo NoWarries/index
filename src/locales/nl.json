@@ -20,7 +20,7 @@
 		},
 		"library": {
 			"title": "Bibliotheek",
-			"description": "Deze website is gebouwd doormiddel van verschillende software modules, op deze pagina staan de meest cruciale genoteerd. Bekijk ook de anderen",
+			"description": "Deze website is gebouwd doormiddel van verschillende technologiën, op deze pagina staan de meest cruciale genoteerd. Bekijk ook de anderen",
 			"dependencies": "afhankelijkheden",
 			"library": "Module",
 			"useCase": "Gebruik",
