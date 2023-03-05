@@ -17,13 +17,10 @@ export default defineNuxtConfig({
 	app: {
 		head: {
 			meta: [
-				// <meta name="viewport" content="width=device-width, initial-scale=1">
 				{ name: 'viewport', content: 'width=device-width, initial-scale=1' },
+				{ name: 'robots', content: 'noindex,nofollow' },
 			],
-			noscript: [
-				// <noscript>JavaScript is required</noscript>
-				{ children: 'JavaScript is required' },
-			],
+			noscript: [{ children: 'JavaScript is required' }],
 		},
 	},
 	// Runtime config
