@@ -66,9 +66,17 @@ export default {
 					licenseUrl: 'https://github.com/nuxt/nuxt/blob/main/LICENSE',
 				},
 				{
-					name: 'heroicons',
-					url: 'https://heroicons.com/',
+					name: 'tabler-icons',
+					url: 'https://tabler-icons.io/',
 					useCase: 'Icons',
+					license: 'MIT',
+					licenseUrl:
+						'https://github.com/tabler/tabler-icons/blob/master/LICENSE',
+				},
+				{
+					name: 'tabler',
+					url: 'https://heroicons.com/',
+					useCase: 'Brand icons',
 					license: 'MIT',
 					licenseUrl:
 						'https://github.com/tailwindlabs/heroicons/blob/master/LICENSE',
