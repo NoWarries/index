@@ -10,10 +10,13 @@
 				<h2 class="text-2xl font-bold text-gray-800 dark:text-white">
 					{{ $t('author') }}
 				</h2>
-				<p class="font-medium text-gray-600 dark:text-gray-300">
-					{{ $t('identity.occupation') }}
-				</p>
-				<div class="mt-4">
+				<div class="mt-4 flex flex-col gap-2">
+					<div class="flex items-center">
+						<BriefcaseIcon class="h-6 w-6 text-gray-500 dark:text-gray-300" />
+						<p class="ml-2 text-gray-600 dark:text-gray-400">
+							{{ $t('identity.occupation') }}
+						</p>
+					</div>
 					<div class="flex items-center">
 						<MapPinIcon class="h-6 w-6 text-gray-500 dark:text-gray-300" />
 						<p class="ml-2 text-gray-600 dark:text-gray-400">
@@ -27,10 +30,10 @@
 </template>
 
 <script>
-import { MapPinIcon, UserIcon } from '@heroicons/vue/24/solid';
+import { MapPinIcon, UserIcon, BriefcaseIcon } from '@heroicons/vue/24/solid';
 import SimpleCard from '~/components/SimpleCard';
 export default {
 	name: 'IDCard',
-	components: { SimpleCard, MapPinIcon, UserIcon },
+	components: { SimpleCard, MapPinIcon, UserIcon, BriefcaseIcon },
 };
 </script>
