@@ -40,6 +40,8 @@
 		"pgp": "PGP-Key"
 	},
 	"index": {
-		"title": "Heyyy, leuke trui!"
+		"title": "Heyyy, leuke trui!",
+		"firstParagraph": "Welkom! Bedankt voor het bezoeken van mijn website. Voel je thuis en kijk is rond. En als er vragen mochten onstaant of je wilt gewoon even hallo zeggen, voel je vrij om mij te",
+		"contactPage": "contacteren"
 	}
 }

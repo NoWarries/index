@@ -41,6 +41,8 @@
 		"pgp": "PGP Public key"
 	},
 	"index": {
-		"title": "Hi, nice shirt!"
+		"title": "Hi, nice shirt!",
+		"firstParagraph": "Welcome! Thank you for visiting my site. Don't be shy, take a look around! And if any questions arise or you just want to say hi, feel free to",
+		"contactPage": "contact me"
 	}
 }

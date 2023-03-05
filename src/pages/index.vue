@@ -6,6 +6,14 @@
 				class="animate-fadeOut relative bottom-1.5 ml-2.5 w-5 animate-wiggleThenFadeOut"
 			/>
 		</div>
+		<p>
+			{{ $t('index.firstParagraph') }}
+			<NuxtLink
+				class="font-semibold text-electric-violet underline dark:text-electric-violet-200"
+				:to="localePath('/contact')"
+				>{{ $t('index.contactPage') }}</NuxtLink
+			>!
+		</p>
 	</div>
 </template>
 
