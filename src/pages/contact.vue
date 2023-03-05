@@ -9,9 +9,7 @@
 			>
 		</div>
 		<div class="grid grid-cols-1 gap-5 sm:grid-cols-2">
-			<div
-				class="flex flex-col rounded-lg py-5 shadow shadow-electric-violet-200"
-			>
+			<SimpleCard class="flex flex-col">
 				<h4 class="pb-2.5 text-center tracking-wider">
 					{{ $t('contact.email') }}
 				</h4>
@@ -23,10 +21,8 @@
 					to="mailto:nowarries@proton.me"
 					>nowarries@proton.me
 				</NuxtLink>
-			</div>
-			<div
-				class="flex flex-col rounded-lg py-5 shadow shadow-electric-violet-200"
-			>
+			</SimpleCard>
+			<SimpleCard class="flex flex-col">
 				<h4 class="pb-2.5 text-center tracking-wider">
 					{{ $t('contact.pgp') }}
 				</h4>
@@ -39,7 +35,7 @@
 					class="block text-center underline"
 					>PGP-key
 				</a>
-			</div>
+			</SimpleCard>
 		</div>
 	</div>
 </template>
@@ -47,9 +43,14 @@
 <script lang="ts">
 import { definePageMeta } from '#imports';
 import { EnvelopeIcon, LockClosedIcon } from '@heroicons/vue/24/solid';
+import SimpleCard from '~/components/SimpleCard.vue';
 
 definePageMeta({ layout: 'browser-layout' });
 export default {
-	components: { EnvelopeIcon, LockClosedIcon },
+	components: {
+		SimpleCard,
+		EnvelopeIcon,
+		LockClosedIcon,
+	},
 };
 </script>

@@ -26,6 +26,7 @@
 import {
 	ChatBubbleLeftRightIcon,
 	HomeModernIcon,
+	IdentificationIcon,
 } from '@heroicons/vue/24/solid';
 import { defineComponent } from '#imports';
 
@@ -49,6 +50,12 @@ export default defineComponent({
 					name: this.$t('browser.header.tabs.contact'),
 					link: '/contact',
 					icon: ChatBubbleLeftRightIcon,
+					local: true, // if it's a local web address (on the site)
+				},
+				{
+					name: this.$t('browser.header.tabs.about'),
+					link: '/about',
+					icon: IdentificationIcon,
 					local: true, // if it's a local web address (on the site)
 				},
 			];

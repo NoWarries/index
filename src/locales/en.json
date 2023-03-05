@@ -12,7 +12,8 @@
 			"reloadPage": "Reload page",
 			"tabs": {
 				"home": "Homepage",
-				"contact": "Contact"
+				"contact": "Contact",
+				"about": "About me"
 			},
 			"bookmark": {
 				"library": "OS Library"
@@ -43,6 +44,13 @@
 	"index": {
 		"title": "Hi, nice shirt!",
 		"firstParagraph": "Welcome! Thank you for visiting my site. Don't be shy, take a look around! And if any questions arise or you just want to say hi, feel free to",
-		"contactPage": "contact me"
+		"contactPage": "contact me",
+		"secondParagraph": "My name is Coen Warries, a 19 year old (IT) Software Development student from the Netherlands.",
+		"aboutPage": "More about me"
+	},
+	"identity": {
+		"occupation": "Student",
+		"location": "Netherlands",
+		"profilePicture": "Profile Picture"
 	}
 }

@@ -12,7 +12,8 @@
 			"reloadPage": "Pagina herladen",
 			"tabs": {
 				"home": "Homepagina",
-				"contact": "Contact"
+				"contact": "Contact",
+				"about": "Over mij"
 			},
 			"bookmark": {
 				"library": "OS Bibliotheek"
@@ -42,6 +43,13 @@
 	"index": {
 		"title": "Heyyy, leuke trui!",
 		"firstParagraph": "Welkom! Bedankt voor het bezoeken van mijn website. Voel je thuis en kijk is rond. En als er vragen mochten onstaant of je wilt gewoon even hallo zeggen, voel je vrij om mij te",
-		"contactPage": "contacteren"
+		"contactPage": "contacteren",
+		"secondParagraph": "Mijn naam is Coen Warries, een 19 jarige (ICT) Software Development student uit Nederland.",
+		"aboutPage": "Meer over mij"
+	},
+	"identity": {
+		"occupation": "Student",
+		"location": "Nederland",
+		"profilePicture": "Profiel foto"
 	}
 }
