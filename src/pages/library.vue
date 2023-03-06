@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<InnerBrowser>
 		<div class="pb-5">
 			<h1>{{ $t('browser.library.title') }}</h1>
 			<p>
@@ -40,14 +40,16 @@
 				</tbody>
 			</table>
 		</div>
-	</div>
+	</InnerBrowser>
 </template>
 
 <script lang="ts">
 import { definePageMeta } from '#imports';
+import InnerBrowser from '~/components/browser/InnerBrowser.vue';
 
 definePageMeta({ layout: 'browser-layout' });
 export default {
+	components: { InnerBrowser },
 	data() {
 		return {
 			websiteLibraries: [
