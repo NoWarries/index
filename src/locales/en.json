@@ -49,6 +49,8 @@
 		"aboutPage": "More about me"
 	},
 	"identity": {
+		"introduction": "Hii! My name is Coen Warries! A 19 year old software enthusiast from the Netherlands. I'm currently studying (IT) Software Development at the University of Applied Sciences Utrecht.",
+		"openSource": "I believe that open source makes the web a better place one line of code at a time. And for this reason I attempt to use and contribute to open source software as much as I can. I actively to make my own projects open source, so that others can see how they shouldn't do things.",
 		"occupation": "Student",
 		"location": "Netherlands",
 		"profilePicture": "Profile Picture"

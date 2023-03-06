@@ -1,19 +1,21 @@
 <template>
-	<div class="flex flex-row">
-		<NuxtLink
-			class="p-2.5"
-			target="_blank"
-			v-for="brand in brands"
-			:to="brand.url"
-			:alt="brand.alt"
-		>
-			<component
+	<div class="relative">
+		<div class="absolute bottom-0 flex flex-row">
+			<NuxtLink
+				class="p-2.5"
+				target="_blank"
+				v-for="brand in brands"
+				:to="brand.url"
 				:alt="brand.alt"
-				class="block text-gray-500 transition hover:text-electric-violet dark:text-gray-400 dark:hover:text-electric-violet"
-				:class="`w-${size} h-${size}`"
-				:is="brand.icon"
-			/>
-		</NuxtLink>
+			>
+				<component
+					:alt="brand.alt"
+					class="block text-gray-300 transition hover:text-electric-violet dark:text-neutral-700 dark:hover:text-electric-violet"
+					:class="`w-${size} h-${size}`"
+					:is="brand.icon"
+				/>
+			</NuxtLink>
+		</div>
 	</div>
 </template>
 
@@ -37,7 +39,7 @@ export default {
 			default: 12,
 		},
 		brands: {
-			type: String,
+			type: Array,
 			default: [
 				{
 					alt: 'Javascript',
@@ -77,11 +79,6 @@ export default {
 				},
 			],
 		},
-	},
-	data() {
-		return {
-			brands: this.$props.brands,
-		};
 	},
 };
 </script>

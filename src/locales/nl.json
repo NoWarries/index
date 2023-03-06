@@ -48,6 +48,8 @@
 		"aboutPage": "Meer over mij"
 	},
 	"identity": {
+		"introduction": "Hii! Mijn naam is Coen Warries, een 19 jarige software fan uit Nederland. Ik studeer momenteel (ICT) Software Development aan de Hogeschool Utrecht.",
+		"openSource": "Ik geloof dat open source het web een betere plek maakt, elke regel code toegevoegd. En voor deze reden probeer ik zoveel mogelijk gebruik te maken; maar ook toe te voegen aan open source software. Ik probeer zoveel mogelijk van mijn projecten open source te maken, zodat iedereen kan leren en zien hoe ze niet tewerk moeten gaan.",
 		"occupation": "Student",
 		"location": "Nederland",
 		"profilePicture": "Profiel foto"

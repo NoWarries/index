@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<InnerBrowser>
 		<h1 class="b-5 m-auto w-fit text-center">{{ $t('contact.title') }}</h1>
 		<div class="m-auto mt-5 mb-10 w-fit">
 			<span
@@ -37,17 +37,19 @@
 				</a>
 			</SimpleCard>
 		</div>
-	</div>
+	</InnerBrowser>
 </template>
 
 <script lang="ts">
 import { definePageMeta } from '#imports';
 import { EnvelopeIcon, LockClosedIcon } from '@heroicons/vue/24/solid';
 import SimpleCard from '~/components/SimpleCard.vue';
+import InnerBrowser from '~/components/browser/InnerBrowser.vue';
 
 definePageMeta({ layout: 'browser-layout' });
 export default {
 	components: {
+		InnerBrowser,
 		SimpleCard,
 		EnvelopeIcon,
 		LockClosedIcon,

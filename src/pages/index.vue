@@ -1,5 +1,5 @@
 <template>
-	<div class="flex flex-col gap-5">
+	<InnerBrowser class="flex flex-col gap-5">
 		<div class="grid grid-cols-1 gap-5 lg:grid-cols-2">
 			<div>
 				<div class="flex flex-row">
@@ -42,7 +42,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</InnerBrowser>
 </template>
 
 <script lang="ts">
@@ -53,10 +53,12 @@ import {
 } from '@heroicons/vue/24/solid';
 import IDCard from '~/components/identity/IDCard.vue';
 import SimpleCard from '~/components/SimpleCard.vue';
+import InnerBrowser from '~/components/browser/InnerBrowser.vue';
 
 definePageMeta({ layout: 'browser-layout' });
 export default {
 	components: {
+		InnerBrowser,
 		SimpleCard,
 		IDCard,
 		HandRaisedIcon,

@@ -10,6 +10,16 @@ module.exports = {
 	],
 	theme: {
 		extend: {
+			spacing: {
+				104: '26rem',
+				112: '28rem',
+				120: '30rem',
+				136: '34rem',
+				152: '38rem',
+				168: '42rem',
+				184: '46rem',
+				192: '48rem',
+			},
 			keyframes: {
 				'fade-in': {
 					'0%': {
@@ -33,6 +43,7 @@ module.exports = {
 				},
 			},
 			animation: {
+				float: 'float 5s ease-in-out infinite',
 				wiggle: 'wiggle 1s ease-in-out 10',
 				wiggleThenFadeOut:
 					'wiggle 1s ease-in-out 5, fade-out 1s ease 1 5s forwards',
