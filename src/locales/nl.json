@@ -13,7 +13,8 @@
 			"tabs": {
 				"home": "Homepagina",
 				"contact": "Contact",
-				"about": "Over mij"
+				"about": "Over mij",
+				"projects": "Projecten"
 			},
 			"bookmark": {
 				"library": "OS Bibliotheek"
@@ -53,5 +54,10 @@
 		"occupation": "Student",
 		"location": "Nederland",
 		"profilePicture": "Profiel foto"
+	},
+	"projects": {
+		"title": "Projecten",
+		"description": "Ik vind het heerlijk om dingen te creëren, vooral als het me persoonlijk interesseert of ten goede komt. Ik hou er ook van om nieuwe dingen te leren, zoals nieuwe programmeertalen, frameworks, bibliotheken, enz. Voor ik er erg in heb heb ik al een nieuw project geopend en ben ik de voor mij nieuwe technologien aan het uitproberen. Hieronder vind je een lijst met open source projecten die ik op Github heb gepubliceerd. Houd er rekening mee dat dit persoonlijke projecten zijn waar ik alleen voor de lol aan (heb ge)werk(t).",
+		"openGithub": "Open in Github"
 	}
 }
