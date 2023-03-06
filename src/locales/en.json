@@ -11,6 +11,7 @@
 			"search": "Search",
 			"reloadPage": "Reload page",
 			"tabs": {
+				"projects": "Projects",
 				"home": "Homepage",
 				"contact": "Contact",
 				"about": "About me"
@@ -54,5 +55,10 @@
 		"occupation": "Student",
 		"location": "Netherlands",
 		"profilePicture": "Profile Picture"
+	},
+	"projects": {
+		"title": "Projects",
+		"description": "I love to create things, and especially when it personally interests or benefits me. I love learning new things; like new programming languages, frameworks, libraries, etc. and often find myself fooling around with them in a new project. Below you can find a list of open source projects I've published on github. Please keep in mind these are personal projects, I work(ed) on just for fun.",
+		"openGithub": "Open on Github"
 	}
 }
