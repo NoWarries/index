@@ -24,7 +24,7 @@
 		</div>
 
 		<div
-			class="flex h-8 w-full border-t-2 border-gray-300 dark:border-neutral-700"
+			class="flex h-12 w-full border-t-2 border-gray-300 dark:border-neutral-700"
 		>
 			<BrowserTabs />
 		</div>

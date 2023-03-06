@@ -1,5 +1,5 @@
 <template>
-	<div class="flex h-full flex-row">
+	<div class="inline-flex h-full flex-row overflow-auto whitespace-nowrap">
 		<div v-for="tab in tabs" class="flex flex-row">
 			<NuxtLink
 				v-if="tab.local"
