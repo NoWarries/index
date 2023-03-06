@@ -55,6 +55,7 @@ import {
 	BuildingLibraryIcon,
 } from '@heroicons/vue/24/solid';
 import { defineComponent } from '#imports';
+import { IconBrandGithub } from '@tabler/icons-vue';
 
 export default defineComponent({
 	name: 'HeaderBookmarks',
@@ -66,6 +67,7 @@ export default defineComponent({
 				{
 					name: 'Github NoWarries',
 					link: 'https://github.com/NoWarries/',
+					icon: IconBrandGithub,
 					local: false, // if it's a local web address (on the site)
 				},
 				{
