@@ -1,7 +1,7 @@
 <template>
 	<div class="flex h-full flex-col overflow-auto">
 		<InnerBrowser class="w-full sm:w-3/4">
-			<h1 class="pt-2.5">{{ $t('browser.header.tabs.about') }}</h1>
+			<h1>{{ $t('browser.header.tabs.about') }}</h1>
 			<ul class="my-5 flex gap-2.5">
 				<li
 					class="flex items-center rounded-lg bg-electric-violet-400 p-1.5 text-white"
