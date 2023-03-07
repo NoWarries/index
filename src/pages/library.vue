@@ -70,15 +70,15 @@ export default {
 				{
 					name: 'tabler-icons',
 					url: 'https://tabler-icons.io/',
-					useCase: 'Icons',
+					useCase: 'Brand icons',
 					license: 'MIT',
 					licenseUrl:
 						'https://github.com/tabler/tabler-icons/blob/master/LICENSE',
 				},
 				{
-					name: 'tabler',
+					name: 'heroicons',
 					url: 'https://heroicons.com/',
-					useCase: 'Brand icons',
+					useCase: 'Icons',
 					license: 'MIT',
 					licenseUrl:
 						'https://github.com/tailwindlabs/heroicons/blob/master/LICENSE',
