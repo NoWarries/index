@@ -39,7 +39,8 @@
 	"contact": {
 		"title": "Vragen? Geen probleem!",
 		"email": "email address",
-		"pgp": "PGP-Key"
+		"pgp": "PGP-Key",
+		"matrix": "matrix gebruikersnaam"
 	},
 	"index": {
 		"title": "Heyyy, leuke trui!",

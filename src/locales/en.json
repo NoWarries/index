@@ -40,7 +40,8 @@
 	"contact": {
 		"title": "Questions? No problem!",
 		"email": "email address",
-		"pgp": "PGP Public key"
+		"pgp": "PGP Public key",
+		"matrix": "matrix username"
 	},
 	"index": {
 		"title": "Hi, nice shirt!",

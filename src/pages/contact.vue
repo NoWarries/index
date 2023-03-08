@@ -8,7 +8,7 @@
 				>-</span
 			>
 		</div>
-		<div class="grid grid-cols-1 gap-5 sm:grid-cols-2">
+		<div class="grid grid-cols-1 gap-5 sm:grid-cols-3">
 			<SimpleCard class="flex flex-col">
 				<h4 class="pb-2.5 text-center tracking-wider">
 					{{ $t('contact.email') }}
@@ -21,6 +21,15 @@
 					to="mailto:nowarries@proton.me"
 					>nowarries@proton.me
 				</NuxtLink>
+			</SimpleCard>
+			<SimpleCard class="flex flex-col">
+				<h4 class="pb-2.5 text-center tracking-wider">
+					{{ $t('contact.matrix') }}
+				</h4>
+				<IconBrandMatrix
+					class="mx-auto mb-2.5 h-12 w-12 rounded-2xl border-4 border-electric-violet-200 bg-electric-violet-100 p-1 text-electric-violet"
+				/>
+				<p class="block text-center">@nowarries:matrix.org</p>
 			</SimpleCard>
 			<SimpleCard class="flex flex-col">
 				<h4 class="pb-2.5 text-center tracking-wider">
@@ -45,7 +54,7 @@ import { definePageMeta } from '#imports';
 import { EnvelopeIcon, LockClosedIcon } from '@heroicons/vue/24/solid';
 import SimpleCard from '~/components/SimpleCard.vue';
 import InnerBrowser from '~/components/browser/InnerBrowser.vue';
-
+import { IconBrandMatrix } from '@tabler/icons-vue';
 definePageMeta({ layout: 'browser-layout' });
 export default {
 	components: {
@@ -53,6 +62,7 @@ export default {
 		SimpleCard,
 		EnvelopeIcon,
 		LockClosedIcon,
+		IconBrandMatrix,
 	},
 };
 </script>
