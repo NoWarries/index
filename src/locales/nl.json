@@ -1,20 +1,20 @@
 {
 	"browser": {
 		"header": {
-			"languageSwitch": "Verander website taal",
-			"toggleBookmarks": "Bekijk bladwijzers",
+			"languageSwitch": "Verander voorkeurstaal van website",
+			"toggleBookmarks": "Bladwijzers bekijken",
 			"bookmarks": "Bladwijzers",
-			"toggleTheme": "Verander websites thema",
-			"switchThemeUnknown": "Verander theme",
-			"switchThemeToLight": "Veranderen naar licht thema",
-			"switchThemeToDark": "Veranderen naar donker thema",
+			"toggleTheme": "Verander voorkeursthema van website",
+			"switchThemeUnknown": "Verander thema",
+			"switchThemeToLight": "Wijzig naar licht thema",
+			"switchThemeToDark": "Wijzig naar donker thema",
 			"search": "Zoeken",
 			"reloadPage": "Pagina herladen",
 			"tabs": {
-				"home": "Homepagina",
+				"projects": "Projecten",
+				"home": "Homepage",
 				"contact": "Contact",
-				"about": "Over mij",
-				"projects": "Projecten"
+				"about": "Over mij"
 			},
 			"bookmark": {
 				"library": "OS Bibliotheek"
@@ -22,35 +22,36 @@
 		},
 		"library": {
 			"title": "Bibliotheek",
-			"description": "Deze website is gebouwd doormiddel van verschillende technologiën, op deze pagina staan de meest cruciale genoteerd. Bekijk ook de anderen",
+			"description": "Deze website is gebouwd met verschillende technologieën. Hieronder heb ik de meest essentiële opgesomd. Bekijk ook de",
 			"dependencies": "afhankelijkheden",
-			"library": "Module",
-			"useCase": "Gebruik",
+			"library": "Bibliotheek",
+			"useCase": "Gebruiksgeval",
 			"license": "Licentie",
 			"website": "Website"
 		}
 	},
+	"author": "Coen Warries",
 	"musicDisplay": {
 		"trackBy": "Door: {join}",
-		"albumCover": "Album Omslag",
-		"UpdateSpotify": "Update spotify"
+		"albumCover": "Albumhoes",
+		"updateSpotify": "Update Spotify"
 	},
-	"author": "Coen Warries",
+	"quote": "Heute back ich, morgen brau ich, übermorgen hol ich der Königin ihr Kind",
 	"contact": {
 		"title": "Vragen? Geen probleem!",
-		"email": "email address",
-		"pgp": "PGP-Key",
-		"matrix": "matrix gebruikersnaam"
+		"email": "E-mailadres",
+		"pgp": "PGP openbare sleutel",
+		"matrix": "Matrix gebruikersnaam"
 	},
 	"index": {
-		"title": "Heyyy, leuke trui!",
-		"firstParagraph": "Welkom! Bedankt voor het bezoeken van mijn website. Voel je thuis en kijk is rond. En als er vragen mochten onstaant of je wilt gewoon even hallo zeggen, voel je vrij om mij te",
-		"contactPage": "contacteren",
-		"secondParagraph": "Mijn naam is Coen Warries, een 19 jarige (ICT) Software Development student uit Nederland.",
+		"title": "Hoi, mooie shirt!",
+		"firstParagraph": "Welkom op mijn website! Bedankt voor uw bezoek. Als software-ontwikkelaar ben ik altijd enthousiast om mijn projecten te presenteren en mijn passie voor technologie met anderen te delen. Dus neem gerust een kijkje! Kom meer te weten over mij en mijn werk en als u vragen of feedback heeft, aarzel dan niet om contact op te nemen via de",
+		"contactPage": "contactpagina",
+		"secondParagraph": "Mijn naam is Coen Warries en ik ben een 19-jarige student software-ontwikkeling uit Nederland. Ik heb een passie voor het creëren en ontwikkelen van software en ik ben altijd geintreseerd om nieuwe programmeertalen, frameworks en technologieën te leren.",
 		"aboutPage": "Meer over mij"
 	},
 	"identity": {
-		"introduction": "Hii! Mijn naam is Coen Warries, een 19 jarige software fan uit Nederland. Ik studeer momenteel (ICT) Software Development aan de Hogeschool Utrecht.",
+		"introduction": "Hallo, ik ben Coen Warries, een gepassioneerde 19-jarige software-ontwikkelaar uit Nederland. Als ontwikkelaar ben ik toegewijd aan constante groei en ontwikkeling. Momenteel volg ik een opleiding in (IT) Software Development aan de Hogeschool Utrecht.",
 		"openSource": "Ik geloof dat open source het web een betere plek maakt, elke regel code toegevoegd. En voor deze reden probeer ik zoveel mogelijk gebruik te maken; maar ook toe te voegen aan open source software. Ik probeer zoveel mogelijk van mijn projecten open source te maken, zodat iedereen kan leren en zien hoe ze niet tewerk moeten gaan.",
 		"occupation": "Student",
 		"location": "Nederland",

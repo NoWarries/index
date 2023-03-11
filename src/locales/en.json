@@ -1,13 +1,13 @@
 {
 	"browser": {
 		"header": {
-			"languageSwitch": "Change website preferred language",
+			"languageSwitch": "Change website's preferred language",
 			"toggleBookmarks": "View bookmarks",
 			"bookmarks": "Bookmarks",
-			"toggleTheme": "Change website preferred theme",
+			"toggleTheme": "Change website's preferred theme",
 			"switchThemeUnknown": "Change theme",
-			"switchThemeToLight": "Change to light theme",
-			"switchThemeToDark": "Change to dark theme",
+			"switchThemeToLight": "Switch to light theme",
+			"switchThemeToDark": "Switch to dark theme",
 			"search": "Search",
 			"reloadPage": "Reload page",
 			"tabs": {
@@ -22,7 +22,7 @@
 		},
 		"library": {
 			"title": "Library",
-			"description": "Website is build using various technologies, below I listed some of the most crucial ones. Also check out the",
+			"description": "This website is built using various technologies. Below, I listed some of the most crucial ones. Also, check out the",
 			"dependencies": "dependencies",
 			"library": "Library",
 			"useCase": "Use case",
@@ -34,32 +34,32 @@
 	"musicDisplay": {
 		"trackBy": "By: {join}",
 		"albumCover": "Album Cover",
-		"UpdateSpotify": "Update spotify"
+		"updateSpotify": "Update Spotify"
 	},
 	"quote": "Heute back ich, morgen brau ich, übermorgen hol ich der Königin ihr Kind",
 	"contact": {
 		"title": "Questions? No problem!",
-		"email": "email address",
-		"pgp": "PGP Public key",
-		"matrix": "matrix username"
+		"email": "Email address",
+		"pgp": "PGP public key",
+		"matrix": "Matrix username"
 	},
 	"index": {
 		"title": "Hi, nice shirt!",
-		"firstParagraph": "Welcome! Thank you for visiting my site. Don't be shy, take a look around! And if any questions arise or you just want to say hi, feel free to",
+		"firstParagraph": "Welcome to my website! Thank you for visiting. As a software developer, I'm always excited to showcase my projects and share my passion for technology with others. So please, take a look around! Learn more about me and my work and if you have any questions or feedback, don't hesitate to",
 		"contactPage": "contact me",
-		"secondParagraph": "My name is Coen Warries, a 19 year old (IT) Software Development student from the Netherlands.",
+		"secondParagraph": "My name is Coen Warries and I am a 19-year-old software development student from the Netherlands. I have a passion for creating and developing software, and I'm always eager to learn new programming languages, frameworks, and technologies. ",
 		"aboutPage": "More about me"
 	},
 	"identity": {
-		"introduction": "Hii! My name is Coen Warries! A 19 year old software enthusiast from the Netherlands. I'm currently studying (IT) Software Development at the University of Applied Sciences Utrecht.",
-		"openSource": "I believe that open source makes the web a better place one line of code at a time. And for this reason I attempt to use and contribute to open source software as much as I can. I actively try to make my own projects open source, so that others can see how they shouldn't do things.",
+		"introduction": "Greetings my name is Coen Warries, a passionate 19-year-old software developer from the Netherlands. As a developer I am commited to constant learning and growth, I am currently pursuing a degree in (IT) Software Development at the University of Applied Sciences Utrecht.",
+		"openSource": "I believe that open source makes the web a better place, one line of code at a time. For this reason, I attempt to use and contribute to open source software as much as I can. I actively try to make my own projects open source, so that others can see how they shouldn't do things.",
 		"occupation": "Student",
 		"location": "Netherlands",
-		"profilePicture": "Profile Picture"
+		"profilePicture": "Profile picture"
 	},
 	"projects": {
 		"title": "Projects",
-		"description": "I love to create things, and especially when it personally interests or benefits me. I love learning new things; like new programming languages, frameworks, libraries, etc. and often find myself fooling around with them in a new project. Below you can find a list of open source projects I've published on github. Please keep in mind these are personal projects, I work(ed) on just for fun.",
+		"description": "I love to create things, especially when they personally interest or benefit me. I love learning new things, like new programming languages, frameworks, libraries, and other technologies; and often find myself fooling around with them in a new project. Below, you can find a list of open source projects I've published on Github. Please keep in mind that these are personal projects I worked on just for fun.",
 		"openGithub": "Open on Github"
 	}
 }
