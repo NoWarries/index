@@ -1,9 +1,10 @@
 <template>
 	<InnerBrowser class="w-full">
+		<LanguageWarning />
 		<h2 class="text-center">{{ $t('about.website.title') }}</h2>
 		<PageSplitter />
 		<div class="flex flex-row pb-5">
-			<StackPiece />
+			<StackPiece class="hidden sm:flex" />
 			<div class="mx-5">
 				<div>
 					<h3 id="fe">{{ $t('about.website.frontEnd.title') }}</h3>
@@ -59,10 +60,12 @@ import {
 } from '@tabler/icons-vue';
 import StackPiece from '~/components/StackPiece.vue';
 import BrandList from '~/components/identity/BrandList.vue';
+import LanguageWarning from '~/components/LanguageWarning.vue';
 
 definePageMeta({ layout: 'browser-layout' });
 export default {
 	components: {
+		LanguageWarning,
 		BrandList,
 		StackPiece,
 		InnerBrowser,
