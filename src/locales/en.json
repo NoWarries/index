@@ -61,5 +61,29 @@
 		"title": "Projects",
 		"description": "I love to create things, especially when they personally interest or benefit me. I love learning new things, like new programming languages, frameworks, libraries, and other technologies; and often find myself fooling around with them in a new project. Below, you can find a list of open source projects I've published on Github. Please keep in mind that these are personal projects I worked on just for fun.",
 		"openGithub": "Open on Github"
+	},
+	"about": {
+		"website": {
+			"frontEnd": {
+				"title": "Front end",
+				"intro": "The website is built using a modern frontend stack consisting of Tailwind, Nuxt v3, and Sass.",
+				"nuxt": "Nuxt is a framework for building server-side rendered and static websites with Vue.js.",
+				"tailwind": "Tailwind is a utility-first CSS framework that provides pre-built classes for styling HTML elements.",
+				"sass": "Sass is a powerful CSS preprocessor that simplifies the process of writing and managing CSS code.",
+				"icons": "To aliven up the website, I have also used a combination of heroicons and tablericons."
+			},
+			"backEnd": {
+				"title": "Back end",
+				"intro": "The website currently does not have a backend, and the technology to be used for it is yet to be determined. This means that the website''s functionality and features will be limited to what can be achieved through frontend technologies such as Tailwind, Nuxt, and Sass."
+			},
+			"architecture": {
+				"title": "Architecture",
+				"intro": "The website is all build upon a combination of Github and Vercel.",
+				"github": "Github provides a comprehensive set of features for version control, including source code management, issue tracking, collaboration, and continuous integration and deployment (CI/CD) workflows. You can easily track changes, collaborate with other developers, and manage issues and pull requests.",
+				"vercel": "Vercel, on the other hand, is a cloud hosting platform that specializes in serverless deployment and provides an easy-to-use interface for deploying web applications.",
+				"combined": "By using Github and Vercel together, you can take advantage of the strengths of both platforms. Github provides a reliable and efficient way to manage the website''s source code, while Vercel offers a simple and powerful way to deploy the website to the cloud. This combination of version control and cloud hosting can help ensure that your website is easy to manage, maintain, and scale as it evolves over time."
+			},
+			"title": "About the website"
+		}
 	}
 }

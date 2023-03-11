@@ -1,13 +1,7 @@
 <template>
 	<InnerBrowser>
 		<h1 class="b-5 m-auto w-fit text-center">{{ $t('contact.title') }}</h1>
-		<div class="m-auto mt-5 mb-10 w-fit">
-			<span
-				aria-hidden="true"
-				class="flex h-1.5 w-16 rounded-full bg-electric-violet text-transparent"
-				>-</span
-			>
-		</div>
+		<PageSplitter />
 		<div class="grid grid-cols-1 gap-5 sm:grid-cols-3">
 			<SimpleCard class="flex flex-col">
 				<h4 class="pb-2.5 text-center tracking-wider">
@@ -55,9 +49,11 @@ import { EnvelopeIcon, LockClosedIcon } from '@heroicons/vue/24/solid';
 import SimpleCard from '~/components/SimpleCard.vue';
 import InnerBrowser from '~/components/browser/InnerBrowser.vue';
 import { IconBrandMatrix } from '@tabler/icons-vue';
+import PageSplitter from '~/components/PageSplitter.vue';
 definePageMeta({ layout: 'browser-layout' });
 export default {
 	components: {
+		PageSplitter,
 		InnerBrowser,
 		SimpleCard,
 		EnvelopeIcon,
