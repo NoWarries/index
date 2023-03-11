@@ -6,6 +6,31 @@
 		<div class="flex flex-row pb-5">
 			<StackPiece class="hidden sm:flex" />
 			<div class="mx-5">
+				<div class="mb-5 flex w-fit flex-row">
+					<NuxtLink
+						:to="localePath('/library')"
+						class="relative mt-5 mr-2.5 flex whitespace-nowrap font-semibold text-white underline md:mt-auto"
+					>
+						<span
+							class="flex w-full flex-row items-center rounded bg-electric-violet-300 p-2 md:w-fit"
+						>
+							<BuildingLibraryIcon class="h-5 w-5" />
+							{{ $t('about.website.osLibrary') }}
+						</span>
+					</NuxtLink>
+					<NuxtLink
+						:to="'http://github.com/nowarries/index'"
+						target="_blank"
+						class="relative mt-5 flex w-full whitespace-nowrap font-semibold text-white underline md:mt-auto"
+					>
+						<span
+							class="flex w-full flex-row items-center rounded bg-electric-violet-300 p-2 md:w-fit"
+						>
+							<IconBrandGithub class="h-5 w-5" />
+							{{ $t('about.website.sourCodeLocation') }}
+						</span>
+					</NuxtLink>
+				</div>
 				<div>
 					<h3 id="fe">{{ $t('about.website.frontEnd.title') }}</h3>
 					<p>
@@ -43,6 +68,7 @@
 				</div>
 
 				<BrandList :brands="arBrands" class="my-24" />
+				<br />
 			</div>
 		</div>
 	</InnerBrowser>
@@ -61,6 +87,10 @@ import {
 import StackPiece from '~/components/StackPiece.vue';
 import BrandList from '~/components/identity/BrandList.vue';
 import LanguageWarning from '~/components/LanguageWarning.vue';
+import {
+	BuildingLibraryIcon,
+	ChevronDoubleRightIcon,
+} from '@heroicons/vue/24/solid';
 
 definePageMeta({ layout: 'browser-layout' });
 export default {
@@ -69,9 +99,8 @@ export default {
 		BrandList,
 		StackPiece,
 		InnerBrowser,
-		IconBrandSass,
-		IconBrandTailwind,
-		IconBrandNuxt,
+		IconBrandGithub,
+		BuildingLibraryIcon,
 	},
 	data() {
 		return {
