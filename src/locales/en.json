@@ -84,6 +84,11 @@
 				"combined": "By using Github and Vercel together, you can take advantage of the strengths of both platforms. Github provides a reliable and efficient way to manage the website''s source code, while Vercel offers a simple and powerful way to deploy the website to the cloud. This combination of version control and cloud hosting can help ensure that your website is easy to manage, maintain, and scale as it evolves over time."
 			},
 			"title": "About the website"
+		},
+		"project": {
+			"findout": "find out more",
+			"close": "Close",
+			"leader": "Interested in this website?"
 		}
 	},
 	"warning": {

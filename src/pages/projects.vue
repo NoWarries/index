@@ -1,6 +1,7 @@
 <template>
 	<InnerBrowser class="w-full">
 		<h1>{{ $t('projects.title') }}</h1>
+		<AboutProjectNotification />
 		<p>{{ $t('projects.description') }}</p>
 
 		<ProjectCard v-for="project in projects" :project="project" />

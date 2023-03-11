@@ -1,6 +1,6 @@
 <template>
 	<InnerBrowser class="w-full">
-		<LanguageWarning />
+		<LanguageWarning lang="en" />
 		<h2 class="text-center">{{ $t('about.website.title') }}</h2>
 		<PageSplitter />
 		<div class="flex flex-row pb-5">

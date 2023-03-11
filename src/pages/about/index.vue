@@ -42,6 +42,7 @@
 			<p>
 				{{ $t('identity.openSource') }}
 			</p>
+			<AboutProjectNotification />
 		</InnerBrowser>
 		<CornerPiece class="hidden sm:block" />
 		<BrandList class="hidden lg:block" />
