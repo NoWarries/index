@@ -47,13 +47,13 @@
 		"title": "Hi, nice shirt!",
 		"firstParagraph": "Welcome to my website! Thank you for visiting. As a software developer, I'm always excited to showcase my projects and share my passion for technology with others. So please, take a look around! Learn more about me and my work and if you have any questions or feedback, don't hesitate to",
 		"contactPage": "contact me",
-		"secondParagraph": "My name is Coen Warries and I am a 20-year-old software development student from the Netherlands. I have a passion for creating and developing software, and I'm always eager to learn new programming languages, frameworks, and technologies. ",
+		"secondParagraph": "My name is Coen Warries and I am a 22-year-old software developmer from the Netherlands. I have a passion for creating and developing software, and I'm always eager to learn new programming languages, frameworks, and technologies. ",
 		"aboutPage": "More about me"
 	},
 	"identity": {
-		"introduction": "Greetings my name is Coen Warries, a passionate 20-year-old software developer from the Netherlands. As a developer I am commited to constant learning and growth, I am currently pursuing a degree in (IT) Software Development at the University of Applied Sciences Utrecht.",
+		"introduction": "Greetings my name is Coen Warries, a passionate 22-year-old software developer from the Netherlands. As a developer I am commited to constant learning and growth, I am currently pursuing a degree in (IT) Software Development at the University of Applied Sciences Utrecht.",
 		"openSource": "I believe that open source makes the web a better place, one line of code at a time. For this reason, I attempt to use and contribute to open source software as much as I can. I actively try to make my own projects open source, so that others can see how they shouldn't do things.",
-		"occupation": "Student",
+		"occupation": "Software Developer",
 		"location": "Netherlands",
 		"profilePicture": "Profile picture"
 	},
